@@ -1,0 +1,178 @@
+*{
+    margin: 0%;
+   
+}
+a{
+    color: black;
+    text-decoration: none;
+    display: inline;
+  
+}
+
+/*
+S- signifia .. seccion.
+C-s significa.. cabecera.seccion
+a-s significa.. articulos seccion
+i.. significa imagen
+a-i-s... articulo con imagen seccion
+i-s.. significa imagen seccion
+*/
+
+.s-cabecera{
+    display: grid;
+    background-color: blue;
+
+  
+    
+}
+
+
+nav{
+    display: grid;
+    justify-content: center;
+   
+}
+
+
+
+nav .s-inicio{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+nav .s-inicio a{
+    text-align: center;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+nav .s-inicio h1{
+    text-align: center;
+    justify-content: left;
+}
+
+
+
+
+nav .img-logo{
+    margin-left: 50px;
+
+}
+
+nav .img-logo img{
+    width: 100px;
+    margin-top: 10px;
+}
+
+
+
+
+.c-s-iconos .s-iconos{
+    display: flex;
+     text-align: end;
+     justify-content: flex-end;
+     
+
+
+}
+.s-iconos span{
+    color: white;
+   margin: 100px;
+}
+
+
+
+
+.s-principal section{
+display: grid;
+justify-items: center;
+border-style: solid red;
+margin-top: 80px;
+}
+
+
+.texto-centro{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+font-weight: 700px;
+letter-spacing: 10px;
+text-align: center;
+color: white;   
+
+}
+
+.boton-centro{
+    width: 110px;
+    height: 50px;
+    background-color: #ff0000;
+    text-align: center;
+    font-weight: 700px;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+
+
+
+.s-principal{
+    display: grid;
+    background-color: rgb(100, 49, 49);
+    height:max-content;
+    
+
+
+}
+
+.s-articulos{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.s-articulos h1{
+    border-bottom: 1px  solid   black;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.s-articulos .a-s{
+    display: inline-block;
+    padding-left: 10px;
+    max-width: 30%;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+    
+}
+.s-articulos .grid-container{
+    grid-template-columns: 1fr 4fr 1fr;
+
+}
+
+.s-articulos .a-s img{
+    width: 100%;
+}
+
+.s-articulos .a-s p{
+    margin-bottom: 35px;
+}
+.s-articulos .a-s h1{
+    margin-bottom: 25px;
+}
+
+.link-artcle1{
+ 
+    background-color: #ff0000;
+    border-bottom: black;
+}
+
+.footer{
+    display: grid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #22272d;
+    color: white;
+
+    align-content: flex-end;
+}
