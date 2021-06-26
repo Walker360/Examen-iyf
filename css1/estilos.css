@@ -9,6 +9,11 @@ a{
   
 }
 
+body{
+    background-color: black;
+    color: white;
+}
+
 /*
 S- signifia .. seccion.
 C-s significa.. cabecera.seccion
@@ -20,9 +25,8 @@ i-s.. significa imagen seccion
 
 .s-cabecera{
     display: grid;
-    background-color: blue;
+    background-color: black;
 
-  
     
 }
 
@@ -43,26 +47,29 @@ nav .s-inicio{
 
 nav .s-inicio a{
     text-align: center;
-    color: black;
+    color: white;
     border-bottom: 1px solid black;
 }
 
 nav .s-inicio h1{
     text-align: center;
-    justify-content: left;
+    justify-content: center;
 }
-
-
 
 
 nav .img-logo{
-    margin-left: 50px;
-
+    width: 1900px;
 }
 
+
 nav .img-logo img{
-    width: 100px;
     margin-top: 10px;
+}
+
+
+nav .img-logo .img-banner{
+    width: 100%;
+    height: 80%;
 }
 
 
@@ -70,16 +77,18 @@ nav .img-logo img{
 
 .c-s-iconos .s-iconos{
     display: flex;
-     text-align: end;
-     justify-content: flex-end;
+     justify-content:center;
      
 
 
 }
-.s-iconos span{
-    color: white;
-   margin: 100px;
+.s-iconos .img-disney{
+    padding-top: 60px;
+    width: 200px;
+    height: 150px;
 }
+
+
 
 
 
@@ -87,25 +96,31 @@ nav .img-logo img{
 .s-principal section{
 display: grid;
 justify-items: center;
-border-style: solid red;
 margin-top: 80px;
+background-color: black;
+color: white;
+
+}
+
+.s-principal .img-boton{
+    width: 300px;
+    height: 150px;
+    margin: 15px;
+    border: 4px solid white;
+    background-color: black;
+    margin: 20px;
+    border-radius: 30%;
 }
 
 
-.texto-centro{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-font-weight: 700px;
-letter-spacing: 10px;
-text-align: center;
-color: white;   
 
-}
+
+
 
 .boton-centro{
     width: 110px;
     height: 50px;
-    background-color: #ff0000;
+   
     text-align: center;
     font-weight: 700px;
     font-size: 18px;
@@ -117,7 +132,7 @@ color: white;
 
 .s-principal{
     display: grid;
-    background-color: rgb(100, 49, 49);
+ 
     height:max-content;
     
 
@@ -131,16 +146,24 @@ color: white;
 
 .s-articulos h1{
     border-bottom: 1px  solid   black;
-    padding: 10px 15px;
+    margin-left: 15px;
+    text-align: left;
+}
+
+h2{
     text-align: center;
 }
 
+.s-articulos{
+
+    padding-bottom: 100px;
+}
 .s-articulos .a-s{
     display: inline-block;
     padding-left: 10px;
     max-width: 30%;
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
     
 }
@@ -166,13 +189,3 @@ color: white;
     border-bottom: black;
 }
 
-.footer{
-    display: grid;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    background-color: #22272d;
-    color: white;
-
-    align-content: flex-end;
-}

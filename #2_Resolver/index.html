@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Netflix</title>
+    <style>
+        article img{
+            width: 100%;
+        }
+
+        body{
+            background-color: black;
+            color: white; 
+        }
+
+        .grid{
+            padding-top: 50px;
+            padding-bottom: 50px;
+            width: 80%;
+            margin: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 20px;
+        }
+         
+        .title-h4{
+            color: white;
+            font-size: 25px;
+        }
+
+        .btn{
+            color: white;
+            background-color: red;
+            border: 1px solid red;
+            padding: 10px 25px ;
+            font-size: 12px;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        header{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <section class="">
+            <img src="imagenes/logo-netflix.png" width="150px" alt="Netflix">
+        </section>
+        <section style="display: flex;">
+            <div>
+                <p style="color: white; padding-right: 10px;">PELÍCULAS Y SERIES ILIMITADAS</p> 
+            </div>
+            <div class=" " style="display: flex; align-items: center;">
+                <a class="btn" href="">INICIO</a >
+                <a class="btn" href="">PELICULAS</a>
+                <a class="btn" href="">SERIES</a>
+                <a class="btn" href="">UNIRTE AHORA</a>
+                <a class="btn" href="">INICIAR SESIÓN</a>
+            </div>
+        </section>
+    </header>
+    <main>
+        <section style="text-align: center; color: white;">
+            <div style="padding-top: 50px ; padding-bottom:50px ">
+                <h1 style="padding-bottom: 20px;">Hay mucho más para ver.</h1>
+                <p> Netflix tiene un amplio catálogo de peliculas, series, documentales, animes, originales premiados y más. Todo lo que quieras ver, cuando quieras</p>
+            </div>
+            <div style="text-align: center;">
+                <boton class="btn" href="">UNIRTE AHORA</boton>
+            </div>
+        </section>
+        <section class="grid" >
+            <article class="">
+                <img src="imagenes/canvas.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">Canvas</h4>
+            </article>
+            <article class="">
+                <img src="imagenes/moxie.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">Moxie</h4>
+            </article>
+            <article class="">
+                <img src="imagenes/primier-hombre-luna.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">Primer Hombre En la Luna</h4>
+            </article>
+            <article class="">
+                <img src="imagenes/gran-hope.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">Gran Hope</h4>
+            </article>
+            <article class="">
+                <img src="Imagenes/teoria-del-todo.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">barrenderes espaciales</h4>
+            </article>
+            <article class="" >
+                <img src="imagenes/zombie-2.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">barrenderes espaciales</h4>
+            </article>
+            <article class="">
+                <img src="imagenes/vivo.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h5">barrenderes espaciales</h4>
+            </article>
+            <article class="">
+                <img src="imagenes/cielo-existe.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">el cielo existe</h4>
+            </article>
+            <article class="">
+                <img src="imagenes/dios-no-esta-muerto2.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">dios no esta muerto 2</h4>
+            </article>
+            <article class="">
+                <img src="imagenes/mia-leon.jpg" alt="barrenderos espaciales">
+                <h4 class="title--h4">Mia y el leon</h4>
+            </article>
+            <article class="">
+                <img src="imagenes/si-supieras.jpg" alt="barrenderos espaciales">
+                <h4 class="title-h4">Si supieras</h4>
+            </article>
+        </section>
+        
+    </main>
+    <footer style="background-color: #232020; padding: 20px; color: white; text-align: center;">
+        <h5>PIE DE PAGINA</h5>
+    </footer>
+</body>
+</html>
